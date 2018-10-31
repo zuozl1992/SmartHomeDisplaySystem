@@ -1,6 +1,6 @@
 QT -= gui
 
-TARGET = SMGateway
+TARGET = SHGateway
 
 CONFIG += c++11 console
 CONFIG -= app_bundle

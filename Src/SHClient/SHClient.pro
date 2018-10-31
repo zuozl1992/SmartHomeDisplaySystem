@@ -6,7 +6,7 @@
 
 QT          += core gui widgets
 
-TARGET      = SMClient
+TARGET      = SHClient
 TEMPLATE    = app
 
 include(NetWork/network.pri)

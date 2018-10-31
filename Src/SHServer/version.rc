@@ -24,14 +24,14 @@ VS_VERSION_INFO VERSIONINFO
             BLOCK "080404b0"
             BEGIN
                 VALUE "CompanyName", "Albert\0"
-                VALUE "FileDescription", "智能家居客户端\0"
+                VALUE "FileDescription", "智能家居服务器\0"
                 VALUE "FileVersion", "1.0.0.0\0"
                 VALUE "ProductVersion", "1.0.0.0\0"
-                VALUE "LegalCopyright", "版权所有 (C) Albert\0"
-                VALUE "LegalTrademarks", "Albert\0"
-                VALUE "OriginalFilename", "SMClient.exe\0"
-                VALUE "ProductName", "智能家居客户端\0"
-                VALUE "InternalName", "SMClient.exe\0"
+                VALUE "LegalCopyright", "Copyright 2018 Albert. All rights reserved.\0"
+                VALUE "LegalTrademarks", "\0"
+                VALUE "OriginalFilename", "SMServer.exe\0"
+                VALUE "ProductName", "智能家居服务器\0"
+                VALUE "InternalName", "SMServer.exe\0"
            END
         END
         

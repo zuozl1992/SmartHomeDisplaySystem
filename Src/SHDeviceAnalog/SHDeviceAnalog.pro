@@ -1,6 +1,6 @@
 QT       += core gui widgets
 
-TARGET = SMDeviceAnalog
+TARGET = SHDeviceAnalog
 TEMPLATE = app
 
 include(SerialPort/serialport.pri)

@@ -1,6 +1,6 @@
 QT -= gui
 
-TARGET      = SMServer
+TARGET      = SHServer
 
 CONFIG += c++11 console
 CONFIG -= app_bundle
