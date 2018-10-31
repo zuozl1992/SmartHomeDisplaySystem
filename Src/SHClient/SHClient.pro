@@ -26,4 +26,4 @@ RC_FILE += \
             version.rc
 
 RESOURCES += \
-    images.qrc
+            images.qrc

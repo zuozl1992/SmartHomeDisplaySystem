@@ -2,6 +2,7 @@
 #define MAINPAGE_H
 
 #include <QWidget>
+#include <QJsonObject>
 
 namespace Ui {
 class MainPage;
@@ -17,6 +18,7 @@ public:
 
 private slots:
     void on_btnTest_clicked();
+    void newSensingDataSlot(int id,QJsonObject data);
 
 private:
     Ui::MainPage *ui;

@@ -51,6 +51,26 @@ void NetWorkProtocol::setHeart(int id, int index, int te)
     sendData(obj);
 }
 
+void NetWorkProtocol::setLed(int id, int index, int b)
+{
+    QJsonObject obj;
+    obj.insert("type","openLed");
+    obj.insert("id",id);
+    obj.insert("index",index);
+    obj.insert("b",b);
+    sendData(obj);
+}
+
+void NetWorkProtocol::setCurtains(int id, int index, int pos)
+{
+    QJsonObject obj;
+    obj.insert("type","openCurtains");
+    obj.insert("id",id);
+    obj.insert("index",index);
+    obj.insert("pos",pos);
+    sendData(obj);
+}
+
 void NetWorkProtocol::readDataSlot(const QByteArray &data)
 {
     for(qint64 i = 0; i < data.length(); i++)
@@ -109,7 +129,6 @@ void NetWorkProtocol::handleData(const QJsonObject &obj)
     {
         int id = obj.value("id").toInt();
         emit newSensingData(id,obj);
-        qDebug() << obj;
     }
 
 }
