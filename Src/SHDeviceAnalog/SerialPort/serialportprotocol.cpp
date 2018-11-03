@@ -236,7 +236,7 @@ void SerialPortProtocol::readFromSerialSlot(const QByteArray &data)
             //一帧完整的数据接收成功
             oneFrameReadData();
             readLen = 0;
-            return;
+            continue;
         }
         //普通数据
         tempData[readLen++] = data.at(i);
