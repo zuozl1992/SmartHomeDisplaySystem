@@ -1,4 +1,4 @@
-# SmartHome
+# SmartHomeDisplaySystem
 * 基于Qt/C++的智能家居演示系统
 
 ## SHServer V1.0
